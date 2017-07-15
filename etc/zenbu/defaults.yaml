@@ -1,0 +1,103 @@
+name: "default"
+
+#FONTS
+fonts:
+        font1: "-lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1"
+        font2: "lucy tewi:size=8"
+        font3: "lucy tewi 8"
+        font4: "lucy tewi"
+
+#COLORS
+colors:
+    wmbf:           "#333435"
+    wmbu:           "#242528"
+
+    background:     "#1C1D1F"
+    foreground:     "#F5F5F5"
+
+    hint:           "#AADB0F"
+
+    black:
+        normal:     "#202124"
+        bold:       "#242529"
+    red:
+        normal:     "#F8F8F8"
+        bold:       "#F0F0F0"
+    green:
+        normal:     "#AADB0F"
+        bold:       "#B2E610"
+    yellow:
+        normal:     "#313233"
+        bold:       "#414243"
+    blue:
+        normal:     "#E2E2E2"
+        bold:       "#CECECE"
+    magenta:
+        normal:     "#91BA0D"
+        bold:       "#9DCF0E"
+    cyan:
+        normal:     "#B2B2B2"
+        bold:       "#C9C9C9"
+    white:
+        normal:     "#F2F2F2"
+        bold:       "#FAFAFA"
+
+rofi:
+    rofi.font:      DejaVu Sans 14
+    rofi.terminal:  urxvt
+    rofi.seperator-style: solid
+    
+    rofi.lines:     3
+    rofi.line-margin:   10
+    rofi.hide-scrollbar: true
+    rofi.scroll-method:  0
+    
+    rofi.width: 18
+    rofi.padding: 30
+    rofi.bw: 0
+    rofi.eh: 1
+    rofi.opacity: 85
+
+    
+    rofi.bc:              "#ebdbb2"
+    rofi.bg:              "#ebdbb2"
+    rofi.fg:              "#282828"
+    rofi.hlbg:            "#8ec07c"
+    rofi.hlfg:            "#282828"
+
+#UTILITY
+colornumbers:
+    black:    0
+    red:      1
+    green:    2
+    yellow:   3
+    blue:     4
+    magenta:  5
+    cyan:     6
+    white:    7
+
+#CONVENIENCE
+bgc:        "{{ colors.background }}"
+fgc:        "{{ colors.foreground }}"
+
+n_black:    "{{ colors.black.normal }}"
+b_black:    "{{ colors.black.bold }}"
+n_red:      "{{ colors.red.normal }}"
+b_red:      "{{ colors.red.bold }}"
+n_green:    "{{ colors.green.normal }}"
+b_green:    "{{ colors.green.bold }}"
+n_yellow:   "{{ colors.yellow.normal }}"
+b_yellow:   "{{ colors.yellow.bold }}"
+n_blue:     "{{ colors.blue.normal }}"
+b_blue:     "{{ colors.blue.bold }}"
+n_magenta:  "{{ colors.magenta.normal }}"
+b_magenta:  "{{ colors.magenta.bold }}"
+n_cyan:     "{{ colors.cyan.normal }}"
+b_cyan:     "{{ colors.cyan.bold }}"
+n_white:    "{{ colors.white.normal }}"
+b_white:    "{{ colors.white.bold }}"
+
+font1: "{{ fonts.font1 }}"
+font2: "{{ fonts.font2 }}"
+font3: "{{ fonts.font3 }}"
+font4: "{{ fonts.font4 }}"

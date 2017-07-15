@@ -1,0 +1,34 @@
+# for zenbu
+
+name: "Hybrid"
+
+#COLORS
+colors:
+
+    background: "232C31"
+    foreground: "C5C8C6"
+
+    black:
+        normal: "2D3C46"
+        bold:   "425059"
+    red:
+        normal: "A54242"
+        bold:   "CC6666"
+    green:
+        normal: "8C9440"
+        bold:   "B5BD68"
+    yellow:
+        normal: "DE935F"
+        bold:   "F0C674"
+    blue:
+        normal: "5F819D"
+        bold:   "81A2BE"
+    magenta:
+        normal: "85678F"
+        bold:   "B294BB"
+    cyan:
+        normal: "5E8D87"
+        bold:   "8ABEB7"
+    white:
+        normal: "C67A80"
+        bold:   "C5C8C6"

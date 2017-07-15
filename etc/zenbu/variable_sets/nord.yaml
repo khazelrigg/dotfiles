@@ -1,0 +1,39 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "nord"
+
+# Terminal Colors
+colors:
+    
+    background: "2E3440"
+    foreground: "D8DEE9"
+    
+    black:
+        normal: "2E3440"
+        bold:   "4C566A"
+    red:
+        normal: "BF616A"
+        bold:   "BF616A"
+    green:
+        normal: "A3BE8C"
+        bold:   "A3BE8C"
+    yellow:
+        normal: "EBCB8B"
+        bold:   "EBCB8B"
+    blue:
+        normal: "81A1C1"
+        bold:   "81A1C1"
+    magenta:
+        normal: "B48EAD"
+        bold:   "B48EAD"
+    cyan:
+        normal: "88C0D0"
+        bold:   "8FBCBB"
+    white:
+        normal: "E5E9F0"
+        bold:   "ECEFF4"

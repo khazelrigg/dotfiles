@@ -1,0 +1,39 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "Raven"
+
+# Terminal Colors
+colors:
+    
+    background: "32312E"
+    foreground: "A6A7AA"
+    
+    black:
+        normal: "3F3R3B"
+        bold:   "757F83"
+    red:
+        normal: "B36B65"
+        bold:   "EFA29B"
+    green:
+        normal: "4F8C61"
+        bold:   "85C596"
+    yellow:
+        normal: "8D7E45"
+        bold:   "C7B679"
+    blue:
+        normal: "6181B8"
+        bold:   "9AB9F3"
+    magenta:
+        normal: "A46D9D"
+        bold:   "DFA4D7"
+    cyan:
+        normal: "0E8E9A"
+        bold:   "5EC7D4"
+    white:
+        normal: "B6B7BB"
+        bold:   "FEFFFF"
