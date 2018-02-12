@@ -42,6 +42,10 @@ colors:
         normal:     "#F2F2F2"
         bold:       "#FAFAFA"
 
+neovim:
+    colorscheme: hybrid
+    airline: hybrid
+
 #UTILITY
 colornumbers:
     black:    0
@@ -78,3 +82,4 @@ font1: "{{ fonts.font1 }}"
 font2: "{{ fonts.font2 }}"
 font3: "{{ fonts.font3 }}"
 font4: "{{ fonts.font4 }}"
+

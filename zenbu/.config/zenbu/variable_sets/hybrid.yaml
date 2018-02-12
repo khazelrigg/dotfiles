@@ -32,3 +32,7 @@ colors:
     white:
         normal: "6C7A80"
         bold:   "C5C8C6"
+
+neovim:
+        colorscheme: "hybrid"
+        airline: "hybrid"

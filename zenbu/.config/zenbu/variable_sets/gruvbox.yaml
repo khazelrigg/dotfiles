@@ -8,8 +8,8 @@ colors:
     wmbf:       "2D3133"
     wmbu:       "262A2B"
 
-    background: "1D2021"
-    foreground: "FBF1C7"
+    background: "282828"
+    foreground: "ebdbb2"
 
     hint:       "D79921"
 
@@ -37,3 +37,7 @@ colors:
     white:
         normal: "D6C3A8"
         bold:   "EBDBB2"
+
+neovim:
+    colorscheme: "gruvbox"
+    airline: "gruvbox"

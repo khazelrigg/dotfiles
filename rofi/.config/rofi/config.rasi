@@ -1,9 +1,9 @@
 * {
-    background: #1f1f1fdd;
-    foreground: #aaafb2;
-    input-foreground: #76a08c;
-    selected-fg: #877366;
-    prompt: #5f9993;
+    background: #232C31dd;
+    foreground: #C5C8C6;
+    input-foreground: #8C9440;
+    selected-fg: #8ABEB7;
+    prompt: #5E8D87;
 }
 
 #window {

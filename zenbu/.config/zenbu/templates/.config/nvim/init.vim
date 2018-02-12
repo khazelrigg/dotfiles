@@ -23,7 +23,7 @@ Plug 'baskerville/vim-sxhkdrc'
 Plug 'junegunn/goyo.vim'
 call plug#end()
 
-colorscheme hybrid
+colorscheme {{ neovim.colorscheme }}
 syntax enable
 let g:hybrid_custom_term_colors = 1
 let g:hybrid_reduced_contrast = 1 " Remove this line if using the default palette.
@@ -58,7 +58,7 @@ vnoremap <tab> %
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_extensions = ['whitespace', 'tabline']
-let g:airline_theme='hybrid'
+let g:airline_theme='{{ neovim.airline }}'
 let g:airline#extensions#tabline#enabled = 1
 
 nnoremap <silent> <leader>t :NERDTreeToggle<CR>

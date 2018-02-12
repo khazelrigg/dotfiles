@@ -16,7 +16,7 @@
     
     # --- Frame --- 
     frame_width = 1
-    frame_color = "#aaafb2"
+    frame_color = "#6C7A80"
 
     separator_color = auto
     sort = yes
@@ -76,21 +76,21 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#1f1f1f"
-    foreground = "#aaafb2"
+    background = "#232C31"
+    foreground = "#C5C8C6"
     timeout = 10
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#1f1f1f"
-    foreground = "#aaafb2"
+    background = "#232C31"
+    foreground = "#C5C8C6"
     timeout = 10
     #icon = /path/to/icon
 
 [urgency_critical]
-    background = "#1f1f1f"
-    foreground = "#f0696f"
-    frame_color = "#fa9a6a"
+    background = "#232C31"
+    foreground = "#A54242"
+    frame_color = "#CC6666"
     timeout = 0
     #icon = /path/to/icon
 
