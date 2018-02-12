@@ -120,5 +120,11 @@ ctrl + alt + shift + {h,j,k,l}
 alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
+alt + shift + x
+    /home/kmrn/bin/i3lock-fancy/lock -pgt "" -- scrot
+
 alt + ctrl + s
-    tdrop -a -w 2560 -y 35 urxvt
+    tdrop -a -w 2556 -y 35 urxvt
+
+alt + ctrl + d
+    tdrop -a -w 900 -x 3 -h 1080 chromium

@@ -1,0 +1,39 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "kmrn"
+
+# Terminal Colors
+colors:
+    
+    background: "1f1f1f"
+    foreground: "aaafb2"
+    
+    black:
+        normal: "121c21"
+        bold:   "3f6173"
+    red:
+        normal: "f0696f"
+        bold:   "fa9a6a"
+    green:
+        normal: "76a08c"
+        bold:   "1e2e36"
+    yellow:
+        normal: "f7cca1"
+        bold:   "304b59"
+    blue:
+        normal: "718c97"
+        bold:   "7b8e98"
+    magenta:
+        normal: "ceb5ce"
+        bold:   "bcd9e8"
+    cyan:
+        normal: "5f9993"
+        bold:   "877366"
+    white:
+        normal: "aaafb2"
+        bold:   "cfefff"

@@ -1,0 +1,39 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "snazzy"
+
+# Terminal Colors
+colors:
+    
+    background: "1e1f28"
+    foreground: "ebece6"
+    
+    black:
+        normal: "000"
+        bold:   "555555"
+    red:
+        normal: "fb4245"
+        bold:   "fb4245"
+    green:
+        normal: "50fa7b"
+        bold:   "50fa7b"
+    yellow:
+        normal: "f0fa8b"
+        bold:   "f0fa8b"
+    blue:
+        normal: "49b9fe"
+        bold:   "49b9fe"
+    magenta:
+        normal: "fb4cb3"
+        bold:   "fb4cb3"
+    cyan:
+        normal: "8be9fd"
+        bold:   "8be9fd"
+    white:
+        normal: "ededec"
+        bold:   "ededec"

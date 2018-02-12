@@ -18,8 +18,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'arcticicestudio/nord-vim'
+Plug 'NerdyPepper/agila.vim'
 Plug 'morhetz/gruvbox'
 Plug 'baskerville/vim-sxhkdrc'
+Plug 'junegunn/goyo.vim'
 call plug#end()
 " }}}
 
@@ -88,6 +90,11 @@ let g:ctrlp_working_path_mode=0
 let g:ctrlp_switch_buffer=0
 " }}}
 
+" Goyo {{{
+let g:goyo_height = "90%"
+let g:goyo_width = "30%"
+" }}}
+
 " Misc {{{
 set modelines=1
 " }}}
@@ -113,4 +120,4 @@ augroup end
 " }}}
 
 
-" vim:foldmethod=marker:foldlevel=0
+" vim:foldmethod=marker:foldlevel=1

@@ -3,9 +3,9 @@ name: "default"
 #FONTS
 fonts:
         font1: "-lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1"
-        font2: "lucy tewi:size=8"
-        font3: "lucy tewi 8"
-        font4: "lucy tewi"
+        font2: "lucy tewi"
+        font3: "Material Icons"
+        font4: "scientifica"
 
 #COLORS
 colors:
@@ -41,29 +41,6 @@ colors:
     white:
         normal:     "#F2F2F2"
         bold:       "#FAFAFA"
-
-rofi:
-    rofi.font:      DejaVu Sans 14
-    rofi.terminal:  urxvt
-    rofi.seperator-style: solid
-    
-    rofi.lines:     3
-    rofi.line-margin:   10
-    rofi.hide-scrollbar: true
-    rofi.scroll-method:  0
-    
-    rofi.width: 18
-    rofi.padding: 30
-    rofi.bw: 0
-    rofi.eh: 1
-    rofi.opacity: 85
-
-    
-    rofi.bc:              "#ebdbb2"
-    rofi.bg:              "#ebdbb2"
-    rofi.fg:              "#282828"
-    rofi.hlbg:            "#8ec07c"
-    rofi.hlfg:            "#282828"
 
 #UTILITY
 colornumbers:
