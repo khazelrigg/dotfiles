@@ -3,7 +3,7 @@ name: "default"
 #FONTS
 fonts:
         font1: "-lucy-tewi-medium-r-normal--11-90-100-100-c-60-iso10646-1"
-        font2: "lucy tewi"
+        font2: "scientifica"
         font3: "Material Icons"
         font4: "scientifica"
 

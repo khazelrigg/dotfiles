@@ -8,9 +8,9 @@
 ! ░░     ░░ ░░░     ░░░░░░ ░░░░░░   ░░░░░░   ░░░░░░ ░░░     ░░░░░   ░░░░░░ ░░░░░░   
 
 ! -----------[ FONTS ]------------
-*font:       {{ font1 }}
-*boldFont:   {{ font1 }}
-*italicFont: {{ font1 }}
+!*font:       {{ font1 }}
+!*boldFont:   {{ font1 }}
+!*italicFont: {{ font1 }}
 
 ! -----------[ COLORS ]-----------
 *highlightColor: #{{ b_black }}
@@ -58,7 +58,8 @@ URxvt*perl-ext-common: default,matcher
 URxvt*url-launcher:   firefox
 URxvt*matcher.button: 1
 URxvt*modifier: alt
-URxvt*font: xft:{{ font2 }}:size=8,xft:{{ font3 }}:size=8
+URxvt*letterSpace: 2
+URxvt*font: xft:{{ font2 }}:size=11,xft:{{ font3 }}:size=8,xft:creep:size=11
 
 !--------------[ MISC ]---------------
 Xcursor*size: 16
