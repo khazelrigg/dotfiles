@@ -1,0 +1,32 @@
+name: "city"
+
+colors:
+  background:         "000000"
+  foreground:         "d3d3d3"
+  cursor:             "d3d3d3"
+  black:
+    normal:           "201e24"
+    bold:             "837c78"
+  red:
+    normal:           "2d2b30"
+    bold:             "89827d"
+  green:
+    normal:           "3f3d40"
+    bold:             "a7a099"
+  yellow:
+    normal:           "413c3e"
+    bold:             "c2bec1"
+  blue:
+    normal:           "423e41"
+    bold:             "c3bcb2"
+  magenta:
+    normal:           "4e4a4b"
+    bold:             "cbc5ba"
+  cyan:
+    normal:           "6e6765"
+    bold:             "e3ddd2"
+  white:
+    normal:           "837e81"
+    bold:             "efe8dc"
+
+wal: "/home/kmrn/usr/img/walls/subway.jpg"

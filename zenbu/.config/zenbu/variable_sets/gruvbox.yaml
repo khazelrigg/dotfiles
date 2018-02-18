@@ -41,3 +41,5 @@ colors:
 neovim:
     colorscheme: "gruvbox"
     airline: "gruvbox"
+
+wal: "/home/kmrn/usr/img/walls/theUpload.jpg"

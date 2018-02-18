@@ -36,3 +36,5 @@ colors:
 neovim:
         colorscheme: "hybrid"
         airline: "hybrid"
+
+wal: "/home/kmrn/usr/img/walls/traffic.jpg"

@@ -1,0 +1,32 @@
+name: "sr30"
+
+colors:
+  background:         "1f1f1f"
+  foreground:         "c0b18b"
+  cursor:             "c0b18b"
+  black:
+    normal:           "4a3637"
+    bold:             "4a3637"
+  red:
+    normal:           "d17b49"
+    bold:             "d17b49"
+  green:
+    normal:           "7b8748"
+    bold:             "7b8748"
+  yellow:
+    normal:           "af865a"
+    bold:             "af865a"
+  blue:
+    normal:           "535c5c"
+    bold:             "535c5c"
+  magenta:
+    normal:           "775759"
+    bold:             "775759"
+  cyan:
+    normal:           "6d715e"
+    bold:             "6d715e"
+  white:
+    normal:           "c0b18b"
+    bold:             "c0b18b"
+
+wal: "/home/kmrn/usr/img/walls/theHost.jpg"

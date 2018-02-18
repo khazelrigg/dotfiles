@@ -1,0 +1,39 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "charging"
+
+# Terminal Colors
+colors:
+    
+    background: "042127"
+    foreground: "75cddb"
+    
+    black:
+        normal: "042127"
+        bold:   "04252b"
+    red:
+        normal: "b35151"
+        bold:   "b35151"
+    green:
+        normal: "368a3f"
+        bold:   "5eea43"
+    yellow:
+        normal: "79a0a9"
+        bold:   "9ccfdb"
+    blue:
+        normal: "0f8eaa"
+        bold:   "13b7dc"
+    magenta:
+        normal: "5899aa"
+        bold:   "72dbcc"
+    cyan:
+        normal: "3a6f8e"
+        bold:   "23678e"
+    white:
+        normal: "79a0a9"
+        bold:   "9ccfdb"

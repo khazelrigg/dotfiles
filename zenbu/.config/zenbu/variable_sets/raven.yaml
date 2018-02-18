@@ -14,7 +14,7 @@ colors:
     foreground: "A6A7AA"
     
     black:
-        normal: "3F3R3B"
+        normal: "3c3b37"
         bold:   "757F83"
     red:
         normal: "B36B65"
@@ -23,17 +23,19 @@ colors:
         normal: "4F8C61"
         bold:   "85C596"
     yellow:
-        normal: "8D7E45"
+        normal: "dcc670"
         bold:   "C7B679"
     blue:
         normal: "6181B8"
         bold:   "9AB9F3"
     magenta:
-        normal: "A46D9D"
-        bold:   "DFA4D7"
+        normal: "815878"
+        bold:   "776476"
     cyan:
         normal: "0E8E9A"
         bold:   "5EC7D4"
     white:
         normal: "B6B7BB"
         bold:   "FEFFFF"
+
+wal: "/home/kmrn/usr/img/walls/subway.jpg"
