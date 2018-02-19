@@ -123,7 +123,7 @@ alt + shift + x
     /home/kmrn/bin/i3lock-fancy/lock -pgt "" -- scrot
 
 alt + ctrl + s
-    tdrop -a -w 2560 -h 100 urxvt
+    tdrop -a -w 2536 -x 12 -h 300 urxvt
 
 
 alt + ctrl + d

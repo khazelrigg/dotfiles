@@ -3,8 +3,7 @@ dots
 
 ### Scrots
 ---
-[vault](https://v.teknik.io/v/eFzlG)
-![teknik.io](https://u.teknik.io/Ua9AO.png)
+![gif](https://gfycat.com/SizzlingZealousHawk)
 
 ### Applications
 

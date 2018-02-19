@@ -16,7 +16,7 @@
     
     # --- Frame --- 
     frame_width = 1
-    frame_color = "#{{ n_white }}"
+    frame_color = "#6f6f6f"
 
     separator_color = auto
     sort = yes
@@ -25,7 +25,7 @@
 
     ### Text ###
 
-    font = lucy tewi 8
+    font = scientifica 11
 
     line_height = 0
 

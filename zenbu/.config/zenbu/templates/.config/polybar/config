@@ -1,5 +1,5 @@
 [fonts]
-font = scientifica:size=10
+font = scientifica:size=11
 
 [bar/cmptr]
 monitor = DVI-D-0
@@ -44,7 +44,7 @@ ws-icon-2 = III;ide
 ws-icon-default = ws
 
 label-occupied =
-label-empty = 
+label-empty =
 
 format-background = {{ b_black }}
 
