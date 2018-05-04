@@ -29,4 +29,6 @@ colors:
     normal:           "837e81"
     bold:             "efe8dc"
 
-wal: "/home/kmrn/usr/img/walls/subway.jpg"
+neovim:
+        airline: "minimalist"
+wal: "/home/kmrn/usr/img/walls/flowers.jpg"

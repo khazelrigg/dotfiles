@@ -123,9 +123,11 @@ alt + shift + x
     /home/kmrn/bin/i3lock-fancy/lock -pgt "" -- scrot
 
 alt + ctrl + s
-    tdrop -a -w 2536 -x 12 -h 300 urxvt
+    tdrop -a -w 2528 -x 14 -h 300 urxvt
 
 
 alt + ctrl + d
     tdrop -a -w 900 -x 3 -h 1080 chromium
 
+alt + ctrl + {minus,equal}
+    /home/kmrn/.config/bspwm/gapModifier.sh {e,x}

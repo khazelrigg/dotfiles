@@ -9,6 +9,12 @@
 " ░  ░          ░      ░              ░       ░           ░   ░         ░      ░     ░ ░
 "                                                        ░                           ░
 
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'w0ng/vim-hybrid'
 Plug 'vim-airline/vim-airline'
@@ -57,9 +63,9 @@ nnoremap <tab> %
 vnoremap <tab> %
 
 set laststatus=2
-" let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1
 
-let g:airline#extensions#tabline#left_sep = ' '                                                                                                                                                              
+let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_extensions = ['whitespace', 'tabline']
 let g:airline_theme='{{ neovim.airline }}'
@@ -98,6 +104,6 @@ augroup end
 
 augroup myvimrc
     au!
-    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | so $MYGVIMRC | endif
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc,/home/kmrn/.config/nvim/init.vim so $MYVIMRC | so $MYGVIMRC | endif
 augroup END
 " vim:foldmethod=marker:foldlevel=1

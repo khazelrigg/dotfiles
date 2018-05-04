@@ -29,6 +29,32 @@ modules-right = mpd
 wm-name = bspwm
 wm-restack = bspwm
 
+[bar/secondary]
+monitor = HDMI-0
+bottom = false
+
+width = 1252
+height = 30
+
+offset-x = 14
+offset-y = 12
+
+background = {{ bgc }}
+foreground = {{ fgc }}
+
+border-size = 2
+border-color = 6f6f6f
+
+padding-right = 7
+
+font-0 = ${fonts.font}
+
+modules-center = date
+modules-right = network
+
+wm-name = bspwm
+wm-restack = bspwm
+
 ; =======================[ Modules]==========================
 
 [module/bspwm]
@@ -60,3 +86,11 @@ port = 6600
 format-online = <label-song> <toggle>
 icon-play = ⏵
 icon-pause = ⏸
+
+[module/network]
+type = internal/network
+interface = enp6s0
+
+label-connected = %local_ip%
+label-disconnected = off the grid
+

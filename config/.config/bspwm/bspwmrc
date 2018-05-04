@@ -24,15 +24,19 @@ bspc rule -a Nightly desktop='^2'
 bspc rule -a 'jetbrains-idea-ce' desktop='^3'
 bspc rule -a 'Google Play Music Desktop Player' desktop='^10'
 bspc rule -a Zathura state=tiled
-bspc rule -a Steam state=tiled desktop='^9'
+bspc rule -a Steam state=tiled
 
 # Autostart
 feh --bg-fill $wallpaper &
 compton -b &
 dunst &
+/home/kmrn/bin/blurme/blurme &
+/home/kmrn/.screenlayout/two.sh ;
 xrdb /home/kmrn/.Xresources ;
 
-polybar cmptr &
+polybar -r cmptr &
+polybar -r secondary &
 /home/kmrn/.config/bspwm/launchWorkspace.sh ;
 firefox &
 idea.sh &
+mopidy &
