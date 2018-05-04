@@ -3,7 +3,7 @@ dots
 
 ### Scrots
 ---
-![gif](https://gfycat.com/SizzlingZealousHawk)
+[gif](https://gfycat.com/SizzlingZealousHawk)
 
 ### Applications
 
