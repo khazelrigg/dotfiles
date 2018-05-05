@@ -120,7 +120,7 @@ alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 alt + shift + x
-    /home/kmrn/bin/i3lock-fancy/lock -pgt "" -- scrot
+    lock -p -t Locked -- scrot
 
 alt + ctrl + s
     tdrop -a -w 2528 -x 14 -h 300 urxvt
@@ -131,3 +131,4 @@ alt + ctrl + d
 
 alt + ctrl + {minus,equal}
     /home/kmrn/.config/bspwm/gapModifier.sh {e,x}
+
