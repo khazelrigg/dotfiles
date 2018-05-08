@@ -9,25 +9,17 @@
 " ░  ░          ░      ░              ░       ░           ░   ░         ░      ░     ░ ░
 "                                                        ░                           ░
 
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
+let configs = [
+\   "plugins",
+\   "plugin-settings"
+\]
 
-call plug#begin('~/.local/share/nvim/plugged')
-Plug 'w0ng/vim-hybrid'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdtree'
-Plug 'kien/ctrlp.vim'
-Plug 'vim-syntastic/syntastic'
-Plug 'arcticicestudio/nord-vim'
-Plug 'NerdyPepper/agila.vim'
-Plug 'morhetz/gruvbox'
-Plug 'baskerville/vim-sxhkdrc'
-Plug 'junegunn/goyo.vim'
-call plug#end()
+for file in configs
+  let x = expand("~/.config/nvim/".file.".vim")
+  if filereadable(x)
+    execute 'source' x
+  endif
+endfor
 
 colorscheme {{ neovim.colorscheme }}
 syntax enable
@@ -62,15 +54,6 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <tab> %
 vnoremap <tab> %
 
-set laststatus=2
-let g:airline_powerline_fonts = 1
-
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_extensions = ['whitespace', 'tabline']
-let g:airline_theme='{{ neovim.airline }}'
-let g:airline#extensions#tabline#enabled = 1
-
 nnoremap <silent> <leader>t :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -86,10 +69,6 @@ set modelines=1
 
 hi clear SignColumn
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
@@ -97,6 +76,7 @@ let g:syntastic_check_on_wq = 0
 
 let g:syntastic_error_symbol = '✘'
 let g:syntastic_warning_symbol = "▲"
+
 augroup mySyntastic
         au!
         au FileType tex let b:syntastic_mode = "passive"

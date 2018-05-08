@@ -15,6 +15,7 @@ zstyle :compinstall filename '/home/kmrn/.zshrc'
 autoload -Uz compinit
 compinit
 
+export TERM=xterm-256color
 export RHISK_COMM="zenbu"
 source /usr/share/doc/pkgfile/command-not-found.zsh
 

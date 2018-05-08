@@ -1,0 +1,43 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "sourcerer"
+
+# Terminal Colors
+colors:
+    
+    background: "222222"
+    foreground: "c2c2b0"
+    
+    black:
+        normal: "111111"
+        bold:   "181818"
+    red:
+        normal: "aa4450"
+        bold:   "ff6a6a"
+    green:
+        normal: "719611"
+        bold:   "b1d631"
+    yellow:
+        normal: "ff9800"
+        bold:   "87875f"
+    blue:
+        normal: "6688aa"
+        bold:   "90b0d1"
+    magenta:
+        normal: "8f6f8f"
+        bold:   "8181a6"
+    cyan:
+        normal: "528b8b"
+        bold:   "87ceeb"
+    white:
+        normal: "d3d3d3"
+        bold:   "c1cdc1"
+
+neovim:
+        colorscheme: "sourcerer"
+
