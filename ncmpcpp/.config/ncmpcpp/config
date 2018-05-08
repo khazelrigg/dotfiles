@@ -1,0 +1,46 @@
+# Display Settings
+song_list_format = "{$7%a $8> $3}{%t$8$R$b} [{%l}]"
+now_playing_prefix = "$b> "
+now_playing_suffix = "$/b"
+progressbar_look = "▒▓░"
+progressbar_color = black
+progressbar_elapsed_color = cyan
+song_columns_list_format = "(25)[cyan]{a} (40)[green]{t} (30)[]{b} (7f)[cyan]{l}"
+
+mouse_support= no
+autocenter_mode = yes
+header_visibility = no
+statusbar_visibility = yes
+playlist_show_remaining_time = yes
+playlist_shorten_total_times = yes
+titles_visibility = no
+
+main_window_color = white
+
+playlist_display_mode = "columns"
+
+# %l - length
+# %f - filename
+# %D - directory
+# %a - artist
+# %t - title
+# %b - album
+# %y - year
+# %n - track number (01/12 -> 01)
+# %N - full track info (01/12 -> 01/12)
+# %g - genre
+# %c - composer
+# %p - performer
+# %d - disc
+# %C - comment
+# $R - begin right alignment
+# $0 - default window color
+# $1 - black
+# $2 - red
+# $3 - green
+# $4 - yellow
+# $5 - blue
+# $6 - magenta
+# $7 - cyan
+# $8 - white
+# $9 - end of current color<Paste>

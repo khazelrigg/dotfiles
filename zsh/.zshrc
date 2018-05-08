@@ -23,3 +23,4 @@ alias vtop="vtop -t city"
 autoload -U +X bashcompinit && bashcompinit
 source /home/kmrn/bin/wzb-utils/autocomplete
 
+export PATH=$PATH:$HOME/.local/bin
