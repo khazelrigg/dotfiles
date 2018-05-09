@@ -16,6 +16,7 @@ Plug 'baskerville/vim-sxhkdrc'
 Plug 'junegunn/goyo.vim'
 Plug 'xero/sourcerer.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'dylanaraps/wal.vim'
 call plug#end()
 
 

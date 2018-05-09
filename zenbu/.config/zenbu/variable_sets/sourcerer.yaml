@@ -41,3 +41,4 @@ colors:
 neovim:
         colorscheme: "sourcerer"
 
+wal: "/home/kmrn/usr/img/walls/black.jpg"
