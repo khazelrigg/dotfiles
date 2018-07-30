@@ -8,10 +8,11 @@ dots
 
 * wm: bspwm
 * term: urxvt
-* font: tewi
-* music: gpmdp
+* font: scientifica
+* reader: zathura
+* music: ncmpcpp + mopidy w/ gmusic
 * stats: neofetch
-* text editor: neovim + airline
-* disk usage: ncdu
-* ide: intellij
+* usage: vtop
+* text editor: neovim 
 * visualiser: cava
+* bar: polybar
