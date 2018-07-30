@@ -3,8 +3,7 @@ dots
 
 ### Scrots
 ---
-[gif](https://gfycat.com/SizzlingZealousHawk)
-
+[ws](https://imgur.com/wOQGyoC)
 ### Applications
 
 * wm: bspwm
