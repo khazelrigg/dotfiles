@@ -17,6 +17,8 @@ titles_visibility = no
 
 main_window_color = white
 
+
+mpd_music_dir = "/home/kmrn/usr/aud"
 playlist_display_mode = "columns"
 
 # %l - length

@@ -5,18 +5,21 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.local/share/nvim/plugged')
+" Colors
+Plug 'xero/sourcerer.vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
 Plug 'w0ng/vim-hybrid'
+Plug 'kien/rainbow_parentheses.vim'
+" UI
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/goyo.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
+" Syntax
 Plug 'vim-syntastic/syntastic'
-Plug 'arcticicestudio/nord-vim'
-Plug 'NerdyPepper/agila.vim'
-Plug 'morhetz/gruvbox'
 Plug 'baskerville/vim-sxhkdrc'
-Plug 'junegunn/goyo.vim'
-Plug 'xero/sourcerer.vim'
-Plug 'itchyny/lightline.vim'
-Plug 'dylanaraps/wal.vim'
-call plug#end()
 
+Plug 'xuhdev/vim-latex-live-preview'
+call plug#end()
 

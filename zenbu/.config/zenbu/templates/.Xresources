@@ -59,7 +59,7 @@ URxvt*url-launcher:   firefox
 URxvt*matcher.button: 1
 URxvt*modifier: alt
 URxvt*letterSpace: 2
-URxvt*font: xft:{{ font2 }}:size=11,xft:{{ font3 }}:size=8,xft:creep:size=11
+URxvt*font: xft:{{ font2 }}:size=11,xft:creep:size=11
 
 !--------------[ MISC ]---------------
 Xcursor*size: 16

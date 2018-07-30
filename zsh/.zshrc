@@ -19,7 +19,10 @@ export TERM=xterm-256color
 export RHISK_COMM="zenbu"
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
+alias :q="exit"
 alias vtop="vtop -t city"
+alias vpnup="systemctl start openvpn-client@Switzerland.service"
+alias vpndown="systemctl stop openvpn-client@Switzerland.service"
 
 autoload -U +X bashcompinit && bashcompinit
 source /home/kmrn/bin/wzb-utils/autocomplete

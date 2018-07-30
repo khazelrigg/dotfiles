@@ -12,7 +12,8 @@ colors:
     
     background: "222222"
     foreground: "c2c2b0"
-    
+    border: "31313l"
+
     black:
         normal: "111111"
         bold:   "181818"

@@ -108,3 +108,13 @@ augroup alestatus
   au!
   autocmd User ALELint call lightline#update()
 augroup end
+
+
+" Rainbow Parens
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+" vim-live-latex
+let g:livepreview_previewer = 'zathura'

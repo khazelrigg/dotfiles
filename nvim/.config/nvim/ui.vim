@@ -1,5 +1,5 @@
 syntax enable
-set background=dark
+set background=dark 
 set number
 set cursorline
 set hlsearch
