@@ -6,11 +6,13 @@ sxhkd &
 xsetroot -cursor_name left_ptr
 
 
-if [[ "$HOST" == 'cmptr' ]]; then
-    bspc monitor HDMI-1 -d I II III IV V
-    bspc monitor DVI-D-1 -d VI VII VIII IX X
-elif [[ "$HOST" == 'lvcmptr' ]]; then
-    bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X
+if [[ "$(hostname -s)" == 'cmptr' ]]; then
+    bspc monitor "HDMI-1" -d I II III IV V
+    bspc monitor "DVI-D-1" -d VI VII VIII IX X
+elif [[ "$(hostname -s)" == 'lvcmptr' ]]; then
+    bspc monitor "eDP-1" -d I II III IV V VI VII VIII IX X
+else
+    echo "Fix your dots"
 fi
 
 
