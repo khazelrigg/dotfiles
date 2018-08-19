@@ -1,0 +1,13 @@
+body {
+    background: #{{ bgc }};
+    color: #{{ fgc }};
+}
+
+#help {
+    background: #{{ bgc }};
+    colro: ${{ fgc }}
+}
+    
+.help#center {
+    color: #{{ bgc }};
+}

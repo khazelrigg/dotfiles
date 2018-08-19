@@ -20,6 +20,5 @@ Plug 'kien/ctrlp.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'baskerville/vim-sxhkdrc'
 
-Plug 'xuhdev/vim-latex-live-preview'
 call plug#end()
 

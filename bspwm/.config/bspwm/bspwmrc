@@ -5,8 +5,14 @@ wallpaper=/home/kmrn/usr/img/walls/black.jpg
 sxhkd &
 xsetroot -cursor_name left_ptr
 
-bspc monitor HDMI-1 -d I II III IV V
-bspc monitor DVI-D-1 -d VI VII VIII IX X
+
+if [[ "$HOST" == 'cmptr' ]]; then
+    bspc monitor HDMI-1 -d I II III IV V
+    bspc monitor DVI-D-1 -d VI VII VIII IX X
+elif [[ "$HOST" == 'lvcmptr' ]]; then
+    bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X
+fi
+
 
 bspc config border_width         	2
 bspc config window_gap          	14
@@ -27,16 +33,24 @@ bspc rule -a Zathura state=tiled
 bspc rule -a Steam state=tiled
 
 # Autostart
+/home/kmrn/.screenlayout/two.sh ;
+
+if [[ "$HOST" == 'cmptr' ]]; then
+    polybar -r cmptr &
+    polybar -r secondary &
+elif [[ "$HOST" == 'lvcmptr' ]]; then
+    polybar -r lvcmptr &
+fi
+
 feh --bg-fill $wallpaper &
 compton -b &
 dunst &
-/home/kmrn/bin/blurme/blurme &
-/home/kmrn/.screenlayout/two.sh ;
+#/home/kmrn/bin/blurme/blurme &
 xrdb /home/kmrn/.Xresources ;
 
-polybar -r cmptr &
-polybar -r secondary &
-/home/kmrn/.config/bspwm/launchWorkspace.sh ;
 firefox &
-idea.sh &
+# idea.sh &
+/home/kmrn/.config/bspwm/launchWorkspace.sh &
+unclutter &
+
 mopidy &

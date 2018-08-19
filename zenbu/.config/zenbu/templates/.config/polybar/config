@@ -11,6 +11,7 @@ bottom=false
 width = 2560
 height = 32
 
+
 padding-right = 7
 
 background = {{ bgc }}
@@ -28,7 +29,6 @@ modules-right = date
 
 wm-name = bspwm
 wm-restack = bspwm
-
 [bar/secondary]
 monitor = DVI-D-1
 bottom = false
@@ -51,6 +51,31 @@ font-1 = Material Icons:size=10
 
 modules-center = date
 modules-right = vpn
+
+wm-name = bspwm
+wm-restack = bspwm
+
+[bar/lvcmptr]
+monitor = eDP-1
+bottom = false
+
+width = 1920
+height = 32
+
+padding-right = 7
+
+background = {{ bgc }}
+foreground = {{ fgc }}
+
+border-bottom-size = 2
+border-color = 6f6f6f
+
+font-0 = ${fonts.font}
+font-1 = Material Icons:size=10
+
+modules-left = bspwm
+modules-center = mpd
+modules-right = date
 
 wm-name = bspwm
 wm-restack = bspwm
