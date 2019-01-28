@@ -16,9 +16,19 @@ Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
+Plug 'mbbill/undotree'
+
 " Syntax
 Plug 'vim-syntastic/syntastic'
 Plug 'baskerville/vim-sxhkdrc'
+Plug 'majutsushi/tagbar'
+Plug 'digitaltoad/vim-pug'
 
+" Python
+Plug 'python-mode/python-mode', { 'branch': 'develop'}
+Plug 'neomake/neomake'
+Plug 'Shougo/deoplete.nvim'
+
+
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
-

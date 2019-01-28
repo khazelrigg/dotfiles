@@ -23,6 +23,9 @@ alias :q="exit"
 alias vtop="vtop -t city"
 alias vpnup="systemctl start openvpn-client@Switzerland.service"
 alias vpndown="systemctl stop openvpn-client@Switzerland.service"
+alias condaa="source /opt/anaconda/bin/activate root"
+alias condad="source /opt/anaconda/bin/deactivate root"
+
 
 autoload -U +X bashcompinit && bashcompinit
 source /home/kmrn/bin/wzb-utils/autocomplete

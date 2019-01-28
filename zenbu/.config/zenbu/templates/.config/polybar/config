@@ -5,7 +5,7 @@ font = scientifica:size=11
 green = {{ n_green }}
 
 [bar/cmptr]
-monitor = HDMI-1
+monitor = DVI-D-0
 bottom=false
 
 width = 2560
@@ -29,11 +29,12 @@ modules-right = date
 
 wm-name = bspwm
 wm-restack = bspwm
+
 [bar/secondary]
-monitor = DVI-D-1
+monitor = DVI-D-0
 bottom = false
 
-width = 1920
+width = 2560
 height = 32
 
 line-size = 2
@@ -56,7 +57,7 @@ wm-name = bspwm
 wm-restack = bspwm
 
 [bar/lvcmptr]
-monitor = eDP-1
+monitor = HDMI-0
 bottom = false
 
 width = 1920

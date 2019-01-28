@@ -7,8 +7,8 @@ xsetroot -cursor_name left_ptr
 
 
 if [[ "$(hostname -s)" == 'cmptr' ]]; then
-    bspc monitor "HDMI-1" -d I II III IV V
-    bspc monitor "DVI-D-1" -d VI VII VIII IX X
+    bspc monitor "HDMI-0" -d I II III IV V
+    bspc monitor "DVI-D-0" -d VI VII VIII IX X
 elif [[ "$(hostname -s)" == 'lvcmptr' ]]; then
     bspc monitor "eDP-1" -d I II III IV V VI VII VIII IX X
 else
@@ -35,14 +35,8 @@ bspc rule -a Zathura state=tiled
 bspc rule -a Steam state=tiled
 
 # Autostart
-/home/kmrn/.screenlayout/two.sh ;
+/home/kmrn/.screenlayout/main.sh ;
 
-if [[ "$HOST" == 'cmptr' ]]; then
-    polybar -r cmptr &
-    polybar -r secondary &
-elif [[ "$HOST" == 'lvcmptr' ]]; then
-    polybar -r lvcmptr &
-fi
 
 feh --bg-fill $wallpaper &
 compton -b &
@@ -52,6 +46,7 @@ xrdb /home/kmrn/.Xresources ;
 
 firefox &
 # idea.sh &
+/home/kmrn/.config/bspc/launchBars *
 /home/kmrn/.config/bspwm/launchWorkspace.sh &
 unclutter &
 
