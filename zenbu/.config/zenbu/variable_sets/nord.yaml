@@ -37,3 +37,8 @@ colors:
     white:
         normal: "E5E9F0"
         bold:   "ECEFF4"
+
+neovim:
+    colorscheme: "nord"
+
+wal: "/home/kmrn/usr/img/walls/mountaindew.jpg"

@@ -1,0 +1,31 @@
+name: "blaquemagick"
+
+colors:
+  background:         "12151a"
+  cursor:             "c2c2b0"
+  black:
+    normal:           "222222"
+    bold:             "222222"
+  red:
+    normal:           "981839"
+    bold:             "981839"
+  green:
+    normal:           "666666"
+    bold:             "666666"
+  yellow:
+    normal:           "87875f"
+    bold:             "87875f"
+  blue:
+    normal:           "888888"
+    bold:             "888888"
+  magenta:
+    normal:           "8181a6"
+    bold:             "8181a6"
+  cyan:
+    normal:           "777777"
+    bold:             "777777"
+  white:
+    normal:           "ababad"
+    bold:             "ababad"
+
+wal: "/home/kmrn/usr/img/walls/midnight.png"

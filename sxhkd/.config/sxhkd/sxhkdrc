@@ -1,10 +1,10 @@
 #wm independent hotkeys
 
-# terminal emulator
+# Launch terminal
 alt + Return
-	urxvt
+	urxvtc
 
-# program launcher
+# Rofi program launcher
 alt + space
 	rofi -show run -font "DejaVu Sans 16" -monitor DVI-D-0
 
@@ -12,12 +12,12 @@ alt + space
 alt + Escape
 	pkill -USR1 -x sxhkd
 
-#
-# bspwm hotkeys
-#
+# Show sxhkd keybindings
+alt + shift + slash
+    /home/kmrn/.config/bspwm/showHelp.sh
 
 # quit bspwm normally
-super + alt + Escape
+ctrl + alt + Delete
 	bspc quit
 
 # close and kill
@@ -122,7 +122,7 @@ alt + shift + x
     lock -p -t Locked -- scrot
 
 alt + ctrl + s
-    tdrop -a -w 2528 -x 14 -h 300 urxvt
+    tdrop -a -w 2532 -x 12 -y 40 -h 300 urxvtc
 
 
 alt + ctrl + d

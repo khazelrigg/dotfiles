@@ -1,13 +1,6 @@
-body {
-    background: #{{ bgc }};
-    color: #{{ fgc }};
-}
-
-#help {
-    background: #{{ bgc }};
-    colro: ${{ fgc }}
-}
-    
-.help#center {
-    color: #{{ bgc }};
+:root {
+    --background: #{{ bgc }};
+    --foreground: #{{ fgc }};
+    --searchBackground: #{{ bgc }};
+    --searchForeground: #{{ fgc }};
 }

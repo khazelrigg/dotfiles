@@ -142,3 +142,6 @@ if has ("persistent_undo")
     set undodir=~/.undodir/
     set undofile
 endif
+
+" Javascript
+let g:javascript_plugin_jsdoc = 1

@@ -25,9 +25,9 @@ alias vpnup="systemctl start openvpn-client@Switzerland.service"
 alias vpndown="systemctl stop openvpn-client@Switzerland.service"
 alias condaa="source /opt/anaconda/bin/activate root"
 alias condad="source /opt/anaconda/bin/deactivate root"
-
-
+alias listmodified="pacman -Qii | awk '/^MODIFIED/ {print $2}'"
 autoload -U +X bashcompinit && bashcompinit
 source /home/kmrn/bin/wzb-utils/autocomplete
 
-export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$HOME/.local/bin:$HOME/bin/scripts
+task list

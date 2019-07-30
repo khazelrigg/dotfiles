@@ -25,9 +25,9 @@
 
     ### Text ###
 
-    font = scientifica 11
+    font = Noto Sans 11
 
-    line_height = 0
+    line_height = 11
 
     markup = full
 
@@ -46,7 +46,7 @@
 
     icon_position = left
     max_icon_size = 125
-    icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_folders = $HOME/.config/dunst/:/usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 
     sticky_history = yes
     history_length = 20

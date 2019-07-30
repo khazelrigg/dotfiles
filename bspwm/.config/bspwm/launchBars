@@ -2,7 +2,6 @@
 
 if [[ "$HOST" == 'cmptr' ]]; then
     polybar -r cmptr &
-    polybar -r secondary &
 elif [[ "$HOST" == 'lvcmptr' ]]; then
     polybar -r lvcmptr &
 fi

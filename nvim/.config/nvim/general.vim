@@ -23,5 +23,6 @@ nnoremap <tab> %
 vnoremap <tab> %
 map <F12> :so $MYVIMRC<cr>
 nnoremap <silent> <leader>t :NERDTreeToggle<CR>
+nnoremap <silent> <leader>c :TagbarToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif

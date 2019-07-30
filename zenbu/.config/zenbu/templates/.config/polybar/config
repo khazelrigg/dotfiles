@@ -8,24 +8,27 @@ green = {{ n_green }}
 monitor = DVI-D-0
 bottom=false
 
-width = 2560
+width = 2536
 height = 32
-
+offset-x = 12
+offset-y = 6
 
 padding-right = 7
+module-margin = 2
 
 background = {{ bgc }}
 foreground = {{ fgc }}
 
-border-bottom-size = 2
+border-size = 2
 border-color = 6f6f6f
 
 font-0 = ${fonts.font}
 font-1 = Material Icons:size=10
-
+font-2 = NotoSans Nerd Font:style=Regular:pixelsize=10
+m
 modules-left = bspwm
-modules-center = mpd
-modules-right = date
+modules-center = date
+modules-right = spotify vpn
 
 wm-name = bspwm
 wm-restack = bspwm
@@ -90,11 +93,17 @@ enable-click = false
 format-padding = 4
 format = <label-state>
 label-focused = %icon:3%
-ws-icon-0 = I;trm
-ws-icon-1 = II;web
-ws-icon-2 = III;ide
+ws-icon-0 = I;
+ws-icon-1 = II;
+ws-icon-2 = III;
+ws-icon-3 = IV;
+ws-icon-4 = V;
+ws-icon-5 = VI;
+ws-icon-6 = VII;
+ws-icon-7 = VIII;
+ws-icon-8 = IX; 
+ws-icon-9 = X;
 ws-icon-default = ws
-
 label-occupied =
 label-empty =
 
@@ -120,3 +129,17 @@ interval = 5
 format = <label>
 format-underline = {{ n_red }}
 click-left = firefox https://www.privateinternetaccess.com/pages/whats-my-ip/
+
+[module/gpmdp]
+type = custom/script
+exec = $HOME/.config/polybar/gpmdp.sh
+click-left = gpmdp
+
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python /home/kmrn/.config/polybar/spotify_status.py -f '{artist}: {song}'
+format-underline = #1db954
+
