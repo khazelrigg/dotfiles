@@ -26,6 +26,7 @@ alias vpndown="systemctl stop openvpn-client@Switzerland.service"
 alias condaa="source /opt/anaconda/bin/activate root"
 alias condad="source /opt/anaconda/bin/deactivate root"
 alias listmodified="pacman -Qii | awk '/^MODIFIED/ {print $2}'"
+alias embyUp="ssh -R emby.rngr.be:80:localhost:8906 serveo.net"
 autoload -U +X bashcompinit && bashcompinit
 source /home/kmrn/bin/wzb-utils/autocomplete
 

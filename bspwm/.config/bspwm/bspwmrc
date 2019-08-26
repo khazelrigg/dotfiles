@@ -30,11 +30,11 @@ bspc config border_radius        10
 bspc rule -a Firefox desktop='^2'
 bspc rule -a Nightly desktop='^2'
 bspc rule -a 'jetbrains-idea-ce' desktop='^3'
-bspc rule -a Chromium='^4'
+bspc rule -a Chromium desktop='^4'
 bspc rule -a Zathura state=tiled desktop='^5'
 bspc rule -a Steam state=tiled desktop='^6'
 bspc rule -a 'Google Play Music Desktop Player' desktop='^10'
-bspc rule -a 'Spotify' desktop='^10'
+bspc rule -a Spotify desktop='^10'
 
 # Autostart
 urxvtd -q -f -o &
@@ -55,4 +55,6 @@ blurwal -s 15 &
 #/home/kmrn/.config/bspc/launchBars *
 #/home/kmrn/.config/bspwm/launchWorkspace.sh &
 unclutter &
+autossh -M 0 -R emby.rngr.be:80:localhost:8096 serveo.net -f &
+autossh -M 0 -R 10002:localhost:22 ec2tunnel -f &
 spotify
