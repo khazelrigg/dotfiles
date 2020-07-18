@@ -2,6 +2,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set spell
 
 filetype indent on
 set lazyredraw
@@ -26,3 +27,5 @@ nnoremap <silent> <leader>t :NERDTreeToggle<CR>
 nnoremap <silent> <leader>c :TagbarToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+nnoremap <C-l> [s 1z=

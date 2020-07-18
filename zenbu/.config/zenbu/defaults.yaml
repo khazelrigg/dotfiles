@@ -82,3 +82,9 @@ font2: "{{ fonts.font2 }}"
 font3: "{{ fonts.font3 }}"
 font4: "{{ fonts.font4 }}"
 wal: ""
+
+xfce:
+    style: "Fantome"
+    icons: "Papirus"
+    theme: "Circela"
+

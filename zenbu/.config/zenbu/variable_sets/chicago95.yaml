@@ -1,0 +1,15 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "chicago95"
+
+xfce:
+    style: "Chicago95"
+    icons: "Chicago95"
+    theme: "Chicago95"
+
+wal: "/home/kmrn/usr/img/bg/chicago95.png"

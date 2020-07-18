@@ -28,20 +28,10 @@ function reloadBG {
         xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorHDMI-0/workspace0/last-image -s $WAL
     elif [ $WM == "bspwm" ]; then
         feh --bg-fill $WAL
-    fi
-}
-
-function reloadSpotify {
-    spicetify apply
-    if [ $WM == "Xfwm4" ]; then
-        DESKTOP=$( wmctrl -d | grep '*' | head -c 1 )
-        wmctrl -x -a spotify
-        sleep 0.1
-        xte 'keydown Control_L' 'keydown Shift_L' 'keydown r' 'keyup Control_L' 'keyup Shift_L' 'keyup r'
-        sleep 0.1
-        wmctrl -s $DESKTOP
+    elif [ $WM == "awesome" ]; then  
+        feh --bg-fill $WAL
+        echo 'awesome.restart()' | awesome-client
     fi
 }
 
 reloadBG
-reloadSpotify

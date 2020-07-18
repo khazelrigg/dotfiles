@@ -1,0 +1,14 @@
+#  _____ _____ _____ _____ _____
+# |__   |   __|   | | __  |  |  |
+# |   __|   __| | | | __ -|  |  |
+# |_____|_____|_|___|_____|_____|
+
+# by: khazelrigg
+
+name: "arcdark"
+
+xfce:
+    style: "Arc-Dark"
+    icons: "Arc"
+    theme: "Arc-Dark"
+

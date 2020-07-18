@@ -23,7 +23,7 @@ for file in configs
   endif
 endfor
 
-colorscheme hybrid
+colorscheme nord
 
 let g:gruvbox_contrast_dark = 'light'
 let g:hybrid_custom_term_colors = 1

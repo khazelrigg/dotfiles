@@ -1,0 +1,118 @@
+snippet template "Basic Template" b
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\pdfsuppresswarningpagegroup=1
+\title{$1}
+\date{\today}
+\begin{document}
+	$0
+\end{document}
+endsnippet
+
+# Start a section
+snippet beg "begin{} / end{}" i
+\begin{$1}
+	$0
+\end{$1}
+endsnippet
+
+# Complete todays date
+snippet today "Date"
+`date +%F`
+endsnippet
+
+# Inline Math
+snippet mk "Math" wA
+$${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet
+
+# Displayed Math
+snippet dm "Math" wA
+\[
+$1
+.\] $0
+endsnippet
+
+# Sub Scripts
+snippet '([A-Za-z])(\d)' "auto subscript" wrA
+`!p snip.rv = match.group(1)`_`!p snip.rv = match.group(2)`
+endsnippet
+
+snippet '([A-Za-z])_(\d\d)' "auto subscript2" wrA
+`!p snip.rv = match.group(1)`_{`!p snip.rv = match.group(2)`}
+endsnippet
+
+# Super scripts
+snippet sr "^2" iA
+^2
+endsnippet
+
+snippet cb "^3" iA
+^3
+endsnippet
+
+snippet compl "complement" iA
+^{c}
+endsnippet
+
+snippet td "superscript" iA
+^{$1}$0
+endsnippet
+
+# Fractions
+snippet // "Fraction" iA
+\\frac{$1}{$2}$0
+endsnippet
+
+snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)/' "Fraction" wrA
+\\frac{`!p snip.rv = match.group(1)`}{$1}$0
+endsnippet
+
+# Post
+priority 10
+snippet "bar" "bar" riA
+\overline{$1}$0
+endsnippet
+
+priority 100
+snippet "([a-zA-Z])bar" "bar" ri
+\overline{`!p snip.rv=match.group(1)`}
+endsnippet
+
+priority 10
+snippet "hat" "hat" ri
+\hat{$1}$0
+endsnippet
+
+priority 100
+snippet "([a-zA-Z])hat" "hat" ri
+\hat{`!p snip.rv=match.group(1)`}
+endsnippet
+
+snippet "(\\?\w+)(,\.|\.,)" "Vector postfix" ri
+\vec{`!p snip.rv=match.group(1)`}
+endsnippet
+
+snippet enum "Enumerate" b
+\begin{enumerate}
+	\item $0
+\end{enumerate}
+endsnippet
+
+snippet dv "Derivative" w
+\dv[${1:${VISUAL}}]{${2}}{${3}}
+endsnippet
+
+snippet pdv "Partial Derivative" w
+\pdv[${1:${VISUAL}}]{${2}}{${3}}
+endsnippet
+
+snippet SI "SI-Unit" w
+\SI{${1:${VISUAL}}}{${2}}
+endsnippet
+

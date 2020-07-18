@@ -6,7 +6,7 @@ alt + Return
 
 # Rofi program launcher
 alt + space
-	rofi -show run -font "DejaVu Sans 16" -monitor DVI-D-0
+	rofi -show run -font "DejaVu Sans 16" -monitor HDMI-0
 
 # make sxhkd reload its configuration files:
 alt + Escape
